@@ -15,3 +15,827 @@
 2024/04/01 08:15:33 [notice] 1#1: start worker process 30
 2024/04/01 08:15:33 [notice] 1#1: start worker process 31
 2024/04/01 08:15:54 [error] 23#23: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/04/02 02:18:35 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/02 02:18:35 [notice] 26#26: gracefully shutting down
+2024/04/02 02:18:35 [notice] 22#22: gracefully shutting down
+2024/04/02 02:18:35 [notice] 29#29: gracefully shutting down
+2024/04/02 02:18:35 [notice] 25#25: gracefully shutting down
+2024/04/02 02:18:35 [notice] 31#31: gracefully shutting down
+2024/04/02 02:18:35 [notice] 25#25: exiting
+2024/04/02 02:18:35 [notice] 28#28: gracefully shutting down
+2024/04/02 02:18:35 [notice] 30#30: gracefully shutting down
+2024/04/02 02:18:35 [notice] 24#24: gracefully shutting down
+2024/04/02 02:18:35 [notice] 27#27: gracefully shutting down
+2024/04/02 02:18:35 [notice] 23#23: gracefully shutting down
+2024/04/02 02:18:35 [notice] 26#26: exiting
+2024/04/02 02:18:35 [notice] 22#22: exiting
+2024/04/02 02:18:35 [notice] 29#29: exiting
+2024/04/02 02:18:35 [notice] 31#31: exiting
+2024/04/02 02:18:35 [notice] 25#25: exit
+2024/04/02 02:18:35 [notice] 28#28: exiting
+2024/04/02 02:18:35 [notice] 30#30: exiting
+2024/04/02 02:18:35 [notice] 24#24: exiting
+2024/04/02 02:18:35 [notice] 27#27: exiting
+2024/04/02 02:18:35 [notice] 23#23: exiting
+2024/04/02 02:18:35 [notice] 26#26: exit
+2024/04/02 02:18:35 [notice] 22#22: exit
+2024/04/02 02:18:35 [notice] 29#29: exit
+2024/04/02 02:18:35 [notice] 31#31: exit
+2024/04/02 02:18:35 [notice] 28#28: exit
+2024/04/02 02:18:35 [notice] 30#30: exit
+2024/04/02 02:18:35 [notice] 24#24: exit
+2024/04/02 02:18:35 [notice] 27#27: exit
+2024/04/02 02:18:35 [notice] 23#23: exit
+2024/04/02 02:18:35 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/04/02 02:18:35 [notice] 1#1: worker process 24 exited with code 0
+2024/04/02 02:18:35 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 02:18:35 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/04/02 02:18:35 [notice] 1#1: worker process 22 exited with code 0
+2024/04/02 02:18:35 [notice] 1#1: worker process 25 exited with code 0
+2024/04/02 02:18:35 [notice] 1#1: worker process 29 exited with code 0
+2024/04/02 02:18:35 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 02:18:35 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/04/02 02:18:35 [notice] 1#1: worker process 28 exited with code 0
+2024/04/02 02:18:35 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 02:18:35 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/04/02 02:18:35 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/04/02 02:18:35 [notice] 1#1: worker process 23 exited with code 0
+2024/04/02 02:18:35 [notice] 1#1: worker process 26 exited with code 0
+2024/04/02 02:18:35 [notice] 1#1: worker process 27 exited with code 0
+2024/04/02 02:18:35 [notice] 1#1: worker process 30 exited with code 0
+2024/04/02 02:18:35 [notice] 1#1: worker process 31 exited with code 0
+2024/04/02 02:18:35 [notice] 1#1: exit
+2024/04/02 02:18:35 [notice] 1#1: using the "epoll" event method
+2024/04/02 02:18:35 [notice] 1#1: nginx/1.25.4
+2024/04/02 02:18:35 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/02 02:18:35 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2024/04/02 02:18:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/02 02:18:35 [notice] 1#1: start worker processes
+2024/04/02 02:18:35 [notice] 1#1: start worker process 22
+2024/04/02 02:18:35 [notice] 1#1: start worker process 23
+2024/04/02 02:18:35 [notice] 1#1: start worker process 24
+2024/04/02 02:18:35 [notice] 1#1: start worker process 25
+2024/04/02 02:18:35 [notice] 1#1: start worker process 26
+2024/04/02 02:18:35 [notice] 1#1: start worker process 27
+2024/04/02 02:18:35 [notice] 1#1: start worker process 28
+2024/04/02 02:18:35 [notice] 1#1: start worker process 29
+2024/04/02 02:18:35 [notice] 1#1: start worker process 30
+2024/04/02 02:18:35 [notice] 1#1: start worker process 31
+2024/04/02 02:18:48 [error] 22#22: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/04/02 02:18:48 [error] 22#22: *1 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "localhost", referrer: "http://localhost/"
+2024/04/02 02:20:26 [error] 22#22: *1 upstream timed out (110: Connection timed out) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", subrequest: "/auth", upstream: "http://192.168.1.101:8080/verify?token=success", host: "localhost"
+2024/04/02 02:20:26 [error] 22#22: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", subrequest: "/50x.html", upstream: "http://192.168.1.101:8080/verify?token=success", host: "localhost"
+2024/04/02 02:20:26 [error] 22#22: *1 auth request unexpected status: 404, client: 192.168.65.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 02:20:26 [error] 22#22: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 02:22:00 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/02 02:22:00 [notice] 24#24: gracefully shutting down
+2024/04/02 02:22:00 [notice] 23#23: gracefully shutting down
+2024/04/02 02:22:00 [notice] 22#22: gracefully shutting down
+2024/04/02 02:22:00 [notice] 25#25: gracefully shutting down
+2024/04/02 02:22:00 [notice] 22#22: exiting
+2024/04/02 02:22:00 [notice] 26#26: gracefully shutting down
+2024/04/02 02:22:00 [notice] 28#28: gracefully shutting down
+2024/04/02 02:22:00 [notice] 26#26: exiting
+2024/04/02 02:22:00 [notice] 31#31: gracefully shutting down
+2024/04/02 02:22:00 [notice] 30#30: gracefully shutting down
+2024/04/02 02:22:00 [notice] 29#29: gracefully shutting down
+2024/04/02 02:22:00 [notice] 27#27: gracefully shutting down
+2024/04/02 02:22:00 [notice] 24#24: exiting
+2024/04/02 02:22:00 [notice] 23#23: exiting
+2024/04/02 02:22:00 [notice] 28#28: exiting
+2024/04/02 02:22:00 [notice] 22#22: exit
+2024/04/02 02:22:00 [notice] 31#31: exiting
+2024/04/02 02:22:00 [notice] 26#26: exit
+2024/04/02 02:22:00 [notice] 30#30: exiting
+2024/04/02 02:22:00 [notice] 29#29: exiting
+2024/04/02 02:22:00 [notice] 27#27: exiting
+2024/04/02 02:22:00 [notice] 24#24: exit
+2024/04/02 02:22:00 [notice] 23#23: exit
+2024/04/02 02:22:00 [notice] 28#28: exit
+2024/04/02 02:22:00 [notice] 31#31: exit
+2024/04/02 02:22:00 [notice] 30#30: exit
+2024/04/02 02:22:00 [notice] 29#29: exit
+2024/04/02 02:22:00 [notice] 27#27: exit
+2024/04/02 02:22:00 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/04/02 02:22:00 [notice] 1#1: worker process 22 exited with code 0
+2024/04/02 02:22:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 02:22:00 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/04/02 02:22:00 [notice] 1#1: worker process 26 exited with code 0
+2024/04/02 02:22:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 02:22:00 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/04/02 02:22:00 [notice] 1#1: worker process 24 exited with code 0
+2024/04/02 02:22:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 02:22:00 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/02 02:22:00 [notice] 1#1: worker process 23 exited with code 0
+2024/04/02 02:22:00 [notice] 1#1: worker process 27 exited with code 0
+2024/04/02 02:22:00 [notice] 1#1: worker process 28 exited with code 0
+2024/04/02 02:22:00 [notice] 1#1: worker process 29 exited with code 0
+2024/04/02 02:22:00 [notice] 1#1: worker process 31 exited with code 0
+2024/04/02 02:22:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 02:22:00 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/04/02 02:22:00 [notice] 1#1: worker process 30 exited with code 0
+2024/04/02 02:22:00 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 02:22:00 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/04/02 02:22:10 [notice] 1#1: using the "epoll" event method
+2024/04/02 02:22:10 [notice] 1#1: nginx/1.25.4
+2024/04/02 02:22:10 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/02 02:22:10 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2024/04/02 02:22:10 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/02 02:22:10 [notice] 1#1: start worker processes
+2024/04/02 02:22:10 [notice] 1#1: start worker process 22
+2024/04/02 02:22:10 [notice] 1#1: start worker process 23
+2024/04/02 02:22:10 [notice] 1#1: start worker process 24
+2024/04/02 02:22:10 [notice] 1#1: start worker process 25
+2024/04/02 02:22:10 [notice] 1#1: start worker process 26
+2024/04/02 02:22:10 [notice] 1#1: start worker process 27
+2024/04/02 02:22:10 [notice] 1#1: start worker process 28
+2024/04/02 02:22:10 [notice] 1#1: start worker process 29
+2024/04/02 02:22:10 [notice] 1#1: start worker process 30
+2024/04/02 02:22:10 [notice] 1#1: start worker process 31
+2024/04/02 02:23:28 [error] 22#22: *1 upstream timed out (110: Connection timed out) while connecting to upstream, client: 192.168.65.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", subrequest: "/auth", upstream: "http://192.168.1.101:8080/verify?token=success", host: "localhost"
+2024/04/02 02:23:28 [error] 22#22: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", subrequest: "/50x.html", upstream: "http://192.168.1.101:8080/verify?token=success", host: "localhost"
+2024/04/02 02:23:28 [error] 22#22: *1 auth request unexpected status: 404, client: 192.168.65.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 02:23:28 [error] 22#22: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: localhost, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 02:30:06 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/02 02:30:06 [notice] 23#23: gracefully shutting down
+2024/04/02 02:30:06 [notice] 22#22: gracefully shutting down
+2024/04/02 02:30:06 [notice] 30#30: gracefully shutting down
+2024/04/02 02:30:06 [notice] 26#26: gracefully shutting down
+2024/04/02 02:30:06 [notice] 31#31: gracefully shutting down
+2024/04/02 02:30:06 [notice] 28#28: gracefully shutting down
+2024/04/02 02:30:06 [notice] 29#29: gracefully shutting down
+2024/04/02 02:30:06 [notice] 27#27: gracefully shutting down
+2024/04/02 02:30:06 [notice] 25#25: gracefully shutting down
+2024/04/02 02:30:06 [notice] 24#24: gracefully shutting down
+2024/04/02 02:30:06 [notice] 23#23: exiting
+2024/04/02 02:30:06 [notice] 22#22: exiting
+2024/04/02 02:30:06 [notice] 30#30: exiting
+2024/04/02 02:30:06 [notice] 26#26: exiting
+2024/04/02 02:30:06 [notice] 31#31: exiting
+2024/04/02 02:30:06 [notice] 28#28: exiting
+2024/04/02 02:30:06 [notice] 29#29: exiting
+2024/04/02 02:30:06 [notice] 27#27: exiting
+2024/04/02 02:30:06 [notice] 29#29: exit
+2024/04/02 02:30:06 [notice] 25#25: exiting
+2024/04/02 02:30:06 [notice] 24#24: exiting
+2024/04/02 02:30:06 [notice] 22#22: exit
+2024/04/02 02:30:06 [notice] 30#30: exit
+2024/04/02 02:30:06 [notice] 23#23: exit
+2024/04/02 02:30:06 [notice] 26#26: exit
+2024/04/02 02:30:06 [notice] 31#31: exit
+2024/04/02 02:30:06 [notice] 28#28: exit
+2024/04/02 02:30:06 [notice] 27#27: exit
+2024/04/02 02:30:06 [notice] 25#25: exit
+2024/04/02 02:30:06 [notice] 24#24: exit
+2024/04/02 02:30:06 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/04/02 02:30:06 [notice] 1#1: worker process 22 exited with code 0
+2024/04/02 02:30:06 [notice] 1#1: worker process 26 exited with code 0
+2024/04/02 02:30:06 [notice] 1#1: worker process 29 exited with code 0
+2024/04/02 02:30:06 [notice] 1#1: worker process 30 exited with code 0
+2024/04/02 02:30:06 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 02:30:06 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/04/02 02:30:06 [notice] 1#1: worker process 23 exited with code 0
+2024/04/02 02:30:06 [notice] 1#1: worker process 24 exited with code 0
+2024/04/02 02:30:06 [notice] 1#1: worker process 27 exited with code 0
+2024/04/02 02:30:06 [notice] 1#1: worker process 28 exited with code 0
+2024/04/02 02:30:06 [notice] 1#1: worker process 31 exited with code 0
+2024/04/02 02:30:06 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 02:30:06 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/02 02:30:06 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/04/02 02:30:06 [notice] 1#1: worker process 25 exited with code 0
+2024/04/02 02:30:06 [notice] 1#1: exit
+2024/04/02 02:30:06 [notice] 1#1: using the "epoll" event method
+2024/04/02 02:30:06 [notice] 1#1: nginx/1.25.4
+2024/04/02 02:30:06 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/02 02:30:06 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2024/04/02 02:30:06 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/02 02:30:06 [notice] 1#1: start worker processes
+2024/04/02 02:30:06 [notice] 1#1: start worker process 22
+2024/04/02 02:30:06 [notice] 1#1: start worker process 23
+2024/04/02 02:30:06 [notice] 1#1: start worker process 24
+2024/04/02 02:30:06 [notice] 1#1: start worker process 25
+2024/04/02 02:30:06 [notice] 1#1: start worker process 26
+2024/04/02 02:30:06 [notice] 1#1: start worker process 27
+2024/04/02 02:30:06 [notice] 1#1: start worker process 28
+2024/04/02 02:30:06 [notice] 1#1: start worker process 29
+2024/04/02 02:30:06 [notice] 1#1: start worker process 30
+2024/04/02 02:30:06 [notice] 1#1: start worker process 31
+2024/04/02 02:30:41 [error] 23#23: *4 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:30:41 [error] 23#23: *4 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:30:41 [error] 22#22: *1 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 02:30:41 [error] 22#22: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 02:38:15 [error] 25#25: *6 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /favicon.ico HTTP/1.1", host: "10.12.1.124", referrer: "http://10.12.1.124/"
+2024/04/02 02:38:15 [error] 25#25: *6 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /favicon.ico HTTP/1.1", host: "10.12.1.124", referrer: "http://10.12.1.124/"
+2024/04/02 02:38:34 [error] 26#26: *8 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:38:34 [error] 26#26: *8 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:38:34 [error] 25#25: *6 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:38:34 [error] 25#25: *6 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:38:43 [error] 28#28: *11 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:38:43 [error] 28#28: *11 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:38:43 [error] 24#24: *5 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:38:43 [error] 24#24: *5 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:48:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/02 02:48:15 [notice] 24#24: gracefully shutting down
+2024/04/02 02:48:15 [notice] 24#24: exiting
+2024/04/02 02:48:15 [notice] 23#23: gracefully shutting down
+2024/04/02 02:48:15 [notice] 28#28: gracefully shutting down
+2024/04/02 02:48:15 [notice] 22#22: gracefully shutting down
+2024/04/02 02:48:15 [notice] 28#28: exiting
+2024/04/02 02:48:15 [notice] 27#27: gracefully shutting down
+2024/04/02 02:48:15 [notice] 25#25: gracefully shutting down
+2024/04/02 02:48:15 [notice] 30#30: gracefully shutting down
+2024/04/02 02:48:15 [notice] 26#26: gracefully shutting down
+2024/04/02 02:48:15 [notice] 31#31: gracefully shutting down
+2024/04/02 02:48:15 [notice] 29#29: gracefully shutting down
+2024/04/02 02:48:15 [notice] 31#31: exiting
+2024/04/02 02:48:15 [notice] 24#24: exit
+2024/04/02 02:48:15 [notice] 23#23: exiting
+2024/04/02 02:48:15 [notice] 23#23: exit
+2024/04/02 02:48:15 [notice] 22#22: exiting
+2024/04/02 02:48:15 [notice] 27#27: exiting
+2024/04/02 02:48:15 [notice] 28#28: exit
+2024/04/02 02:48:15 [notice] 25#25: exiting
+2024/04/02 02:48:15 [notice] 30#30: exiting
+2024/04/02 02:48:15 [notice] 26#26: exiting
+2024/04/02 02:48:15 [notice] 29#29: exiting
+2024/04/02 02:48:15 [notice] 26#26: exit
+2024/04/02 02:48:15 [notice] 31#31: exit
+2024/04/02 02:48:15 [notice] 22#22: exit
+2024/04/02 02:48:15 [notice] 27#27: exit
+2024/04/02 02:48:15 [notice] 25#25: exit
+2024/04/02 02:48:15 [notice] 30#30: exit
+2024/04/02 02:48:15 [notice] 29#29: exit
+2024/04/02 02:48:15 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/02 02:48:15 [notice] 1#1: worker process 24 exited with code 0
+2024/04/02 02:48:15 [notice] 1#1: worker process 31 exited with code 0
+2024/04/02 02:48:15 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 02:48:15 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/04/02 02:48:15 [notice] 1#1: worker process 28 exited with code 0
+2024/04/02 02:48:15 [notice] 1#1: worker process 23 exited with code 0
+2024/04/02 02:48:15 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 02:48:15 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/04/02 02:48:15 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/04/02 02:48:15 [notice] 1#1: worker process 22 exited with code 0
+2024/04/02 02:48:15 [notice] 1#1: worker process 26 exited with code 0
+2024/04/02 02:48:15 [notice] 1#1: worker process 27 exited with code 0
+2024/04/02 02:48:15 [notice] 1#1: worker process 29 exited with code 0
+2024/04/02 02:48:15 [notice] 1#1: worker process 25 exited with code 0
+2024/04/02 02:48:15 [notice] 1#1: worker process 30 exited with code 0
+2024/04/02 02:48:15 [notice] 1#1: exit
+2024/04/02 02:48:19 [notice] 1#1: using the "epoll" event method
+2024/04/02 02:48:19 [notice] 1#1: nginx/1.25.4
+2024/04/02 02:48:19 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/02 02:48:19 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2024/04/02 02:48:19 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/02 02:48:19 [notice] 1#1: start worker processes
+2024/04/02 02:48:19 [notice] 1#1: start worker process 22
+2024/04/02 02:48:19 [notice] 1#1: start worker process 23
+2024/04/02 02:48:19 [notice] 1#1: start worker process 24
+2024/04/02 02:48:19 [notice] 1#1: start worker process 25
+2024/04/02 02:48:19 [notice] 1#1: start worker process 26
+2024/04/02 02:48:19 [notice] 1#1: start worker process 27
+2024/04/02 02:48:19 [notice] 1#1: start worker process 28
+2024/04/02 02:48:19 [notice] 1#1: start worker process 29
+2024/04/02 02:48:19 [notice] 1#1: start worker process 30
+2024/04/02 02:48:19 [notice] 1#1: start worker process 31
+2024/04/02 02:48:55 [error] 24#24: *4 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:48:55 [error] 24#24: *4 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:48:55 [error] 22#22: *2 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 02:48:55 [error] 22#22: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 02:48:58 [error] 26#26: *7 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:48:58 [error] 26#26: *7 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:48:58 [error] 23#23: *1 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 02:48:58 [error] 23#23: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 02:49:05 [error] 28#28: *10 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?oken=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:49:05 [error] 28#28: *10 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?oken=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:49:05 [error] 25#25: *5 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?oken=success HTTP/1.1", host: "localhost"
+2024/04/02 02:49:05 [error] 25#25: *5 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?oken=success HTTP/1.1", host: "localhost"
+2024/04/02 02:49:11 [error] 30#30: *13 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify? HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:49:11 [error] 30#30: *13 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify? HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:49:11 [error] 27#27: *9 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/token=success HTTP/1.1", host: "localhost"
+2024/04/02 02:49:11 [error] 27#27: *9 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/token=success HTTP/1.1", host: "localhost"
+2024/04/02 02:49:47 [error] 23#23: *17 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:49:47 [error] 23#23: *17 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:49:47 [error] 31#31: *14 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:49:47 [error] 31#31: *14 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:51:59 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/02 02:51:59 [notice] 25#25: gracefully shutting down
+2024/04/02 02:51:59 [notice] 24#24: gracefully shutting down
+2024/04/02 02:51:59 [notice] 22#22: gracefully shutting down
+2024/04/02 02:51:59 [notice] 23#23: gracefully shutting down
+2024/04/02 02:51:59 [notice] 26#26: gracefully shutting down
+2024/04/02 02:51:59 [notice] 28#28: gracefully shutting down
+2024/04/02 02:51:59 [notice] 30#30: gracefully shutting down
+2024/04/02 02:51:59 [notice] 29#29: gracefully shutting down
+2024/04/02 02:51:59 [notice] 31#31: gracefully shutting down
+2024/04/02 02:51:59 [notice] 27#27: gracefully shutting down
+2024/04/02 02:51:59 [notice] 25#25: exiting
+2024/04/02 02:51:59 [notice] 27#27: exiting
+2024/04/02 02:51:59 [notice] 24#24: exiting
+2024/04/02 02:51:59 [notice] 22#22: exiting
+2024/04/02 02:51:59 [notice] 23#23: exiting
+2024/04/02 02:51:59 [notice] 26#26: exiting
+2024/04/02 02:51:59 [notice] 28#28: exiting
+2024/04/02 02:51:59 [notice] 30#30: exiting
+2024/04/02 02:51:59 [notice] 29#29: exiting
+2024/04/02 02:51:59 [notice] 31#31: exiting
+2024/04/02 02:51:59 [notice] 27#27: exit
+2024/04/02 02:51:59 [notice] 24#24: exit
+2024/04/02 02:51:59 [notice] 25#25: exit
+2024/04/02 02:51:59 [notice] 22#22: exit
+2024/04/02 02:51:59 [notice] 23#23: exit
+2024/04/02 02:51:59 [notice] 26#26: exit
+2024/04/02 02:51:59 [notice] 28#28: exit
+2024/04/02 02:51:59 [notice] 30#30: exit
+2024/04/02 02:51:59 [notice] 29#29: exit
+2024/04/02 02:51:59 [notice] 31#31: exit
+2024/04/02 02:51:59 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/04/02 02:51:59 [notice] 1#1: worker process 23 exited with code 0
+2024/04/02 02:51:59 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 02:51:59 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/04/02 02:51:59 [notice] 1#1: worker process 25 exited with code 0
+2024/04/02 02:51:59 [notice] 1#1: worker process 22 exited with code 0
+2024/04/02 02:51:59 [notice] 1#1: worker process 24 exited with code 0
+2024/04/02 02:51:59 [notice] 1#1: worker process 26 exited with code 0
+2024/04/02 02:51:59 [notice] 1#1: worker process 27 exited with code 0
+2024/04/02 02:51:59 [notice] 1#1: worker process 28 exited with code 0
+2024/04/02 02:51:59 [notice] 1#1: worker process 29 exited with code 0
+2024/04/02 02:51:59 [notice] 1#1: worker process 30 exited with code 0
+2024/04/02 02:51:59 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 02:51:59 [notice] 1#1: signal 17 (SIGCHLD) received from 28
+2024/04/02 02:51:59 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/02 02:51:59 [notice] 1#1: worker process 31 exited with code 0
+2024/04/02 02:51:59 [notice] 1#1: exit
+2024/04/02 02:52:35 [notice] 1#1: using the "epoll" event method
+2024/04/02 02:52:35 [notice] 1#1: nginx/1.25.4
+2024/04/02 02:52:35 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/02 02:52:35 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2024/04/02 02:52:35 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/02 02:52:35 [notice] 1#1: start worker processes
+2024/04/02 02:52:35 [notice] 1#1: start worker process 22
+2024/04/02 02:52:35 [notice] 1#1: start worker process 23
+2024/04/02 02:52:35 [notice] 1#1: start worker process 24
+2024/04/02 02:52:35 [notice] 1#1: start worker process 25
+2024/04/02 02:52:35 [notice] 1#1: start worker process 26
+2024/04/02 02:52:35 [notice] 1#1: start worker process 27
+2024/04/02 02:52:35 [notice] 1#1: start worker process 28
+2024/04/02 02:52:35 [notice] 1#1: start worker process 29
+2024/04/02 02:52:35 [notice] 1#1: start worker process 30
+2024/04/02 02:52:35 [notice] 1#1: start worker process 31
+2024/04/02 02:53:15 [error] 24#24: *4 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:53:15 [error] 24#24: *4 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:53:15 [error] 22#22: *1 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:53:15 [error] 22#22: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:53:24 [error] 26#26: *7 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=1 HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:53:24 [error] 26#26: *7 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=1 HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:53:24 [error] 23#23: *2 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=1 HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:53:24 [error] 23#23: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=1 HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:53:51 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/02 02:53:51 [notice] 22#22: gracefully shutting down
+2024/04/02 02:53:51 [notice] 31#31: gracefully shutting down
+2024/04/02 02:53:51 [notice] 23#23: gracefully shutting down
+2024/04/02 02:53:51 [notice] 24#24: gracefully shutting down
+2024/04/02 02:53:51 [notice] 26#26: gracefully shutting down
+2024/04/02 02:53:51 [notice] 30#30: gracefully shutting down
+2024/04/02 02:53:51 [notice] 25#25: gracefully shutting down
+2024/04/02 02:53:51 [notice] 28#28: gracefully shutting down
+2024/04/02 02:53:51 [notice] 27#27: gracefully shutting down
+2024/04/02 02:53:51 [notice] 29#29: gracefully shutting down
+2024/04/02 02:53:51 [notice] 22#22: exiting
+2024/04/02 02:53:51 [notice] 31#31: exiting
+2024/04/02 02:53:51 [notice] 23#23: exiting
+2024/04/02 02:53:51 [notice] 23#23: exit
+2024/04/02 02:53:51 [notice] 24#24: exiting
+2024/04/02 02:53:51 [notice] 30#30: exiting
+2024/04/02 02:53:51 [notice] 26#26: exiting
+2024/04/02 02:53:51 [notice] 27#27: exiting
+2024/04/02 02:53:51 [notice] 28#28: exiting
+2024/04/02 02:53:51 [notice] 29#29: exiting
+2024/04/02 02:53:51 [notice] 28#28: exit
+2024/04/02 02:53:51 [notice] 22#22: exit
+2024/04/02 02:53:51 [notice] 31#31: exit
+2024/04/02 02:53:51 [notice] 24#24: exit
+2024/04/02 02:53:51 [notice] 30#30: exit
+2024/04/02 02:53:51 [notice] 26#26: exit
+2024/04/02 02:53:51 [notice] 27#27: exit
+2024/04/02 02:53:51 [notice] 29#29: exit
+2024/04/02 02:53:51 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/04/02 02:53:51 [notice] 1#1: worker process 22 exited with code 0
+2024/04/02 02:53:51 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 02:53:51 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/02 02:53:51 [notice] 1#1: worker process 24 exited with code 0
+2024/04/02 02:53:51 [notice] 1#1: worker process 26 exited with code 0
+2024/04/02 02:53:51 [notice] 1#1: worker process 27 exited with code 0
+2024/04/02 02:53:51 [notice] 1#1: worker process 28 exited with code 0
+2024/04/02 02:53:51 [notice] 1#1: worker process 29 exited with code 0
+2024/04/02 02:53:51 [notice] 1#1: worker process 30 exited with code 0
+2024/04/02 02:53:51 [notice] 1#1: worker process 31 exited with code 0
+2024/04/02 02:53:51 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 02:53:51 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/04/02 02:53:51 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/04/02 02:53:51 [notice] 1#1: worker process 23 exited with code 0
+2024/04/02 02:53:51 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 02:56:41 [notice] 1#1: using the "epoll" event method
+2024/04/02 02:56:41 [notice] 1#1: nginx/1.25.4
+2024/04/02 02:56:41 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/02 02:56:41 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2024/04/02 02:56:41 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/02 02:56:41 [notice] 1#1: start worker processes
+2024/04/02 02:56:41 [notice] 1#1: start worker process 22
+2024/04/02 02:56:41 [notice] 1#1: start worker process 23
+2024/04/02 02:56:41 [notice] 1#1: start worker process 24
+2024/04/02 02:56:41 [notice] 1#1: start worker process 25
+2024/04/02 02:56:41 [notice] 1#1: start worker process 26
+2024/04/02 02:56:41 [notice] 1#1: start worker process 27
+2024/04/02 02:56:41 [notice] 1#1: start worker process 28
+2024/04/02 02:56:41 [notice] 1#1: start worker process 29
+2024/04/02 02:56:41 [notice] 1#1: start worker process 30
+2024/04/02 02:56:41 [notice] 1#1: start worker process 31
+2024/04/02 02:56:56 [error] 24#24: *4 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:56:56 [error] 24#24: *4 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:56:56 [error] 23#23: *1 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 02:56:56 [error] 23#23: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 02:56:58 [error] 26#26: *7 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:56:58 [error] 26#26: *7 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:56:58 [error] 22#22: *2 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 02:56:58 [error] 22#22: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 02:57:05 [error] 28#28: *10 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:57:05 [error] 28#28: *10 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:57:05 [error] 27#27: *8 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:57:05 [error] 27#27: *8 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:57:07 [error] 31#31: *14 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:57:07 [error] 31#31: *14 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:57:07 [error] 29#29: *12 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:57:07 [error] 29#29: *12 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:57:16 [error] 23#23: *17 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:57:16 [error] 23#23: *17 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:57:16 [error] 30#30: *11 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:57:16 [error] 30#30: *11 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:57:36 [error] 23#23: *20 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:57:36 [error] 23#23: *20 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 02:57:36 [error] 23#23: *16 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:57:36 [error] 23#23: *16 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:58:31 [error] 22#22: *19 open() "/usr/share/nginx/html/success" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:58:31 [error] 22#22: *19 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 02:58:48 [error] 23#23: *22 open() "/usr/share/nginx/html/success" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /success HTTP/1.1", host: "localhost"
+2024/04/02 02:58:48 [error] 23#23: *22 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /success HTTP/1.1", host: "localhost"
+2024/04/02 03:06:16 [error] 23#23: *28 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 03:06:16 [error] 23#23: *28 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 03:06:16 [error] 22#22: *26 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 03:06:16 [error] 22#22: *26 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 03:06:50 [error] 23#23: *31 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 03:06:50 [error] 23#23: *31 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 03:06:50 [error] 23#23: *25 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 03:06:50 [error] 23#23: *25 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 03:06:53 [error] 23#23: *34 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 03:06:53 [error] 23#23: *34 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 03:06:53 [error] 22#22: *30 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 03:06:53 [error] 22#22: *30 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "localhost"
+2024/04/02 03:10:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/02 03:10:23 [notice] 23#23: gracefully shutting down
+2024/04/02 03:10:23 [notice] 24#24: gracefully shutting down
+2024/04/02 03:10:23 [notice] 25#25: gracefully shutting down
+2024/04/02 03:10:23 [notice] 28#28: gracefully shutting down
+2024/04/02 03:10:23 [notice] 30#30: gracefully shutting down
+2024/04/02 03:10:23 [notice] 31#31: gracefully shutting down
+2024/04/02 03:10:23 [notice] 22#22: gracefully shutting down
+2024/04/02 03:10:23 [notice] 27#27: gracefully shutting down
+2024/04/02 03:10:23 [notice] 26#26: gracefully shutting down
+2024/04/02 03:10:23 [notice] 29#29: gracefully shutting down
+2024/04/02 03:10:23 [notice] 23#23: exiting
+2024/04/02 03:10:23 [notice] 24#24: exiting
+2024/04/02 03:10:23 [notice] 25#25: exiting
+2024/04/02 03:10:23 [notice] 28#28: exiting
+2024/04/02 03:10:23 [notice] 30#30: exiting
+2024/04/02 03:10:23 [notice] 31#31: exiting
+2024/04/02 03:10:23 [notice] 22#22: exiting
+2024/04/02 03:10:23 [notice] 27#27: exiting
+2024/04/02 03:10:23 [notice] 26#26: exiting
+2024/04/02 03:10:23 [notice] 29#29: exiting
+2024/04/02 03:10:23 [notice] 28#28: exit
+2024/04/02 03:10:23 [notice] 24#24: exit
+2024/04/02 03:10:23 [notice] 25#25: exit
+2024/04/02 03:10:23 [notice] 23#23: exit
+2024/04/02 03:10:23 [notice] 30#30: exit
+2024/04/02 03:10:23 [notice] 31#31: exit
+2024/04/02 03:10:23 [notice] 22#22: exit
+2024/04/02 03:10:23 [notice] 27#27: exit
+2024/04/02 03:10:23 [notice] 26#26: exit
+2024/04/02 03:10:23 [notice] 29#29: exit
+2024/04/02 03:10:23 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/02 03:10:23 [notice] 1#1: worker process 31 exited with code 0
+2024/04/02 03:10:23 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 03:10:23 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/04/02 03:10:23 [notice] 1#1: worker process 25 exited with code 0
+2024/04/02 03:10:23 [notice] 1#1: worker process 28 exited with code 0
+2024/04/02 03:10:23 [notice] 1#1: worker process 30 exited with code 0
+2024/04/02 03:10:23 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 03:10:23 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/04/02 03:10:23 [notice] 1#1: worker process 22 exited with code 0
+2024/04/02 03:10:23 [notice] 1#1: worker process 23 exited with code 0
+2024/04/02 03:10:23 [notice] 1#1: worker process 24 exited with code 0
+2024/04/02 03:10:23 [notice] 1#1: worker process 26 exited with code 0
+2024/04/02 03:10:23 [notice] 1#1: worker process 27 exited with code 0
+2024/04/02 03:10:23 [notice] 1#1: worker process 29 exited with code 0
+2024/04/02 03:10:23 [notice] 1#1: exit
+2024/04/02 05:35:55 [notice] 1#1: using the "epoll" event method
+2024/04/02 05:35:55 [notice] 1#1: nginx/1.25.4
+2024/04/02 05:35:55 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/02 05:35:55 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2024/04/02 05:35:55 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/02 05:35:55 [notice] 1#1: start worker processes
+2024/04/02 05:35:55 [notice] 1#1: start worker process 22
+2024/04/02 05:35:55 [notice] 1#1: start worker process 23
+2024/04/02 05:35:55 [notice] 1#1: start worker process 24
+2024/04/02 05:35:55 [notice] 1#1: start worker process 25
+2024/04/02 05:35:55 [notice] 1#1: start worker process 26
+2024/04/02 05:35:55 [notice] 1#1: start worker process 27
+2024/04/02 05:35:55 [notice] 1#1: start worker process 28
+2024/04/02 05:35:55 [notice] 1#1: start worker process 29
+2024/04/02 05:35:55 [notice] 1#1: start worker process 30
+2024/04/02 05:35:55 [notice] 1#1: start worker process 31
+2024/04/02 05:36:22 [error] 23#23: *2 open() "/usr/share/nginx/html/success" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:36:22 [error] 23#23: *2 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:36:43 [error] 23#23: *2 open() "/usr/share/nginx/html/success" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:36:43 [error] 23#23: *2 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:36:52 [error] 22#22: *4 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 05:36:52 [error] 22#22: *4 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 05:36:52 [error] 23#23: *2 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:36:52 [error] 23#23: *2 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:36:53 [error] 25#25: *7 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 05:36:53 [error] 25#25: *7 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 05:36:53 [error] 23#23: *1 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:36:53 [error] 23#23: *1 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:37:06 [error] 27#27: *10 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 05:37:06 [error] 27#27: *10 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 05:37:06 [error] 24#24: *5 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:37:06 [error] 24#24: *5 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:37:51 [error] 29#29: *13 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 05:37:51 [error] 29#29: *13 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 05:37:51 [error] 26#26: *8 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:37:51 [error] 26#26: *8 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:42:05 [error] 23#23: *17 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 05:42:05 [error] 23#23: *17 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 05:42:05 [error] 31#31: *14 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:42:05 [error] 31#31: *14 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:42:09 [error] 23#23: *20 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 05:42:09 [error] 23#23: *20 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 05:42:09 [error] 30#30: *15 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:42:09 [error] 30#30: *15 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:42:14 [error] 23#23: *23 open() "/usr/share/nginx/html/verify" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 05:42:14 [error] 23#23: *23 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /verify?token=success HTTP/1.0", host: "10.12.1.124"
+2024/04/02 05:42:14 [error] 23#23: *18 auth request unexpected status: 404 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:42:14 [error] 23#23: *18 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:43:21 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/02 05:43:21 [notice] 23#23: gracefully shutting down
+2024/04/02 05:43:21 [notice] 22#22: gracefully shutting down
+2024/04/02 05:43:21 [notice] 25#25: gracefully shutting down
+2024/04/02 05:43:21 [notice] 25#25: exiting
+2024/04/02 05:43:21 [notice] 31#31: gracefully shutting down
+2024/04/02 05:43:21 [notice] 31#31: exiting
+2024/04/02 05:43:21 [notice] 29#29: gracefully shutting down
+2024/04/02 05:43:21 [notice] 24#24: gracefully shutting down
+2024/04/02 05:43:21 [notice] 26#26: gracefully shutting down
+2024/04/02 05:43:21 [notice] 24#24: exiting
+2024/04/02 05:43:21 [notice] 27#27: gracefully shutting down
+2024/04/02 05:43:21 [notice] 30#30: gracefully shutting down
+2024/04/02 05:43:21 [notice] 28#28: gracefully shutting down
+2024/04/02 05:43:21 [notice] 23#23: exiting
+2024/04/02 05:43:21 [notice] 22#22: exiting
+2024/04/02 05:43:21 [notice] 25#25: exit
+2024/04/02 05:43:21 [notice] 31#31: exit
+2024/04/02 05:43:21 [notice] 29#29: exiting
+2024/04/02 05:43:21 [notice] 29#29: exit
+2024/04/02 05:43:21 [notice] 26#26: exiting
+2024/04/02 05:43:21 [notice] 24#24: exit
+2024/04/02 05:43:21 [notice] 27#27: exiting
+2024/04/02 05:43:21 [notice] 30#30: exiting
+2024/04/02 05:43:21 [notice] 28#28: exiting
+2024/04/02 05:43:21 [notice] 28#28: exit
+2024/04/02 05:43:21 [notice] 23#23: exit
+2024/04/02 05:43:21 [notice] 22#22: exit
+2024/04/02 05:43:21 [notice] 26#26: exit
+2024/04/02 05:43:21 [notice] 27#27: exit
+2024/04/02 05:43:21 [notice] 30#30: exit
+2024/04/02 05:43:21 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/04/02 05:43:21 [notice] 1#1: worker process 24 exited with code 0
+2024/04/02 05:43:21 [notice] 1#1: worker process 25 exited with code 0
+2024/04/02 05:43:21 [notice] 1#1: worker process 29 exited with code 0
+2024/04/02 05:43:21 [notice] 1#1: worker process 31 exited with code 0
+2024/04/02 05:43:21 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 05:43:21 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/02 05:43:21 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/04/02 05:43:21 [notice] 1#1: worker process 23 exited with code 0
+2024/04/02 05:43:21 [notice] 1#1: worker process 26 exited with code 0
+2024/04/02 05:43:21 [notice] 1#1: worker process 27 exited with code 0
+2024/04/02 05:43:21 [notice] 1#1: worker process 28 exited with code 0
+2024/04/02 05:43:21 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 05:43:21 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/04/02 05:43:21 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/04/02 05:43:21 [notice] 1#1: worker process 22 exited with code 0
+2024/04/02 05:43:21 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 05:43:21 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/04/02 05:43:21 [notice] 1#1: worker process 30 exited with code 0
+2024/04/02 05:43:21 [notice] 1#1: exit
+2024/04/02 05:43:46 [notice] 1#1: using the "epoll" event method
+2024/04/02 05:43:46 [notice] 1#1: nginx/1.25.4
+2024/04/02 05:43:46 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/02 05:43:46 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2024/04/02 05:43:46 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/02 05:43:46 [notice] 1#1: start worker processes
+2024/04/02 05:43:46 [notice] 1#1: start worker process 22
+2024/04/02 05:43:46 [notice] 1#1: start worker process 23
+2024/04/02 05:43:46 [notice] 1#1: start worker process 24
+2024/04/02 05:43:46 [notice] 1#1: start worker process 25
+2024/04/02 05:43:46 [notice] 1#1: start worker process 26
+2024/04/02 05:43:46 [notice] 1#1: start worker process 27
+2024/04/02 05:43:46 [notice] 1#1: start worker process 28
+2024/04/02 05:43:46 [notice] 1#1: start worker process 29
+2024/04/02 05:43:46 [notice] 1#1: start worker process 30
+2024/04/02 05:43:46 [notice] 1#1: start worker process 31
+2024/04/02 05:48:42 [error] 24#24: *5 auth request unexpected status: 400 while sending to client, client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=123 HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:48:42 [error] 24#24: *5 open() "/usr/share/nginx/html/50x.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /api/?token=123 HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:48:58 [error] 25#25: *6 open() "/usr/share/nginx/html/success" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:48:58 [error] 25#25: *6 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /success HTTP/1.1", host: "10.12.1.124"
+2024/04/02 05:49:10 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/02 05:49:10 [notice] 22#22: gracefully shutting down
+2024/04/02 05:49:10 [notice] 23#23: gracefully shutting down
+2024/04/02 05:49:10 [notice] 24#24: gracefully shutting down
+2024/04/02 05:49:10 [notice] 25#25: gracefully shutting down
+2024/04/02 05:49:10 [notice] 26#26: gracefully shutting down
+2024/04/02 05:49:10 [notice] 28#28: gracefully shutting down
+2024/04/02 05:49:10 [notice] 27#27: gracefully shutting down
+2024/04/02 05:49:10 [notice] 28#28: exiting
+2024/04/02 05:49:10 [notice] 31#31: gracefully shutting down
+2024/04/02 05:49:10 [notice] 29#29: gracefully shutting down
+2024/04/02 05:49:10 [notice] 30#30: gracefully shutting down
+2024/04/02 05:49:10 [notice] 22#22: exiting
+2024/04/02 05:49:10 [notice] 30#30: exiting
+2024/04/02 05:49:10 [notice] 23#23: exiting
+2024/04/02 05:49:10 [notice] 24#24: exiting
+2024/04/02 05:49:10 [notice] 25#25: exiting
+2024/04/02 05:49:10 [notice] 27#27: exiting
+2024/04/02 05:49:10 [notice] 31#31: exiting
+2024/04/02 05:49:10 [notice] 29#29: exiting
+2024/04/02 05:49:10 [notice] 28#28: exit
+2024/04/02 05:49:10 [notice] 22#22: exit
+2024/04/02 05:49:10 [notice] 30#30: exit
+2024/04/02 05:49:10 [notice] 23#23: exit
+2024/04/02 05:49:10 [notice] 24#24: exit
+2024/04/02 05:49:10 [notice] 25#25: exit
+2024/04/02 05:49:10 [notice] 27#27: exit
+2024/04/02 05:49:10 [notice] 31#31: exit
+2024/04/02 05:49:10 [notice] 29#29: exit
+2024/04/02 05:49:10 [notice] 1#1: signal 17 (SIGCHLD) received from 27
+2024/04/02 05:49:10 [notice] 1#1: worker process 27 exited with code 0
+2024/04/02 05:49:10 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 05:49:10 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/04/02 05:49:10 [notice] 1#1: worker process 22 exited with code 0
+2024/04/02 05:49:10 [notice] 1#1: worker process 24 exited with code 0
+2024/04/02 05:49:10 [notice] 1#1: worker process 25 exited with code 0
+2024/04/02 05:49:10 [notice] 1#1: worker process 23 exited with code 0
+2024/04/02 05:49:10 [notice] 1#1: worker process 28 exited with code 0
+2024/04/02 05:49:10 [notice] 1#1: worker process 29 exited with code 0
+2024/04/02 05:49:10 [notice] 1#1: worker process 30 exited with code 0
+2024/04/02 05:49:10 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 05:49:10 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/04/02 05:49:10 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/02 05:49:10 [notice] 1#1: worker process 31 exited with code 0
+2024/04/02 05:49:10 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 07:34:33 [notice] 1#1: using the "epoll" event method
+2024/04/02 07:34:33 [notice] 1#1: nginx/1.25.4
+2024/04/02 07:34:33 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/02 07:34:33 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2024/04/02 07:34:33 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/02 07:34:33 [notice] 1#1: start worker processes
+2024/04/02 07:34:33 [notice] 1#1: start worker process 22
+2024/04/02 07:34:33 [notice] 1#1: start worker process 23
+2024/04/02 07:34:33 [notice] 1#1: start worker process 24
+2024/04/02 07:34:33 [notice] 1#1: start worker process 25
+2024/04/02 07:34:33 [notice] 1#1: start worker process 26
+2024/04/02 07:34:33 [notice] 1#1: start worker process 27
+2024/04/02 07:34:33 [notice] 1#1: start worker process 28
+2024/04/02 07:34:33 [notice] 1#1: start worker process 29
+2024/04/02 07:34:33 [notice] 1#1: start worker process 30
+2024/04/02 07:34:33 [notice] 1#1: start worker process 31
+2024/04/02 07:35:37 [error] 24#24: *2 open() "/usr/share/nginx/html/authorize" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /authorize?username=xfg&password=123 HTTP/1.1", host: "10.12.1.124"
+2024/04/02 07:35:37 [error] 24#24: *2 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /authorize?username=xfg&password=123 HTTP/1.1", host: "10.12.1.124"
+2024/04/02 07:35:47 [error] 24#24: *2 open() "/usr/share/nginx/html/authorize" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /authorize?username=xfg&password=123 HTTP/1.1", host: "10.12.1.124"
+2024/04/02 07:35:47 [error] 24#24: *2 open() "/usr/share/nginx/html/404.html" failed (2: No such file or directory), client: 192.168.65.1, server: 10.12.1.124, request: "GET /authorize?username=xfg&password=123 HTTP/1.1", host: "10.12.1.124"
+2024/04/02 07:38:15 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/02 07:38:15 [notice] 24#24: gracefully shutting down
+2024/04/02 07:38:15 [notice] 23#23: gracefully shutting down
+2024/04/02 07:38:15 [notice] 22#22: gracefully shutting down
+2024/04/02 07:38:15 [notice] 29#29: gracefully shutting down
+2024/04/02 07:38:15 [notice] 30#30: gracefully shutting down
+2024/04/02 07:38:15 [notice] 25#25: gracefully shutting down
+2024/04/02 07:38:15 [notice] 31#31: gracefully shutting down
+2024/04/02 07:38:15 [notice] 28#28: gracefully shutting down
+2024/04/02 07:38:15 [notice] 27#27: gracefully shutting down
+2024/04/02 07:38:15 [notice] 26#26: gracefully shutting down
+2024/04/02 07:38:15 [notice] 24#24: exiting
+2024/04/02 07:38:15 [notice] 23#23: exiting
+2024/04/02 07:38:15 [notice] 22#22: exiting
+2024/04/02 07:38:15 [notice] 29#29: exiting
+2024/04/02 07:38:15 [notice] 30#30: exiting
+2024/04/02 07:38:15 [notice] 23#23: exit
+2024/04/02 07:38:15 [notice] 25#25: exiting
+2024/04/02 07:38:15 [notice] 31#31: exiting
+2024/04/02 07:38:15 [notice] 28#28: exiting
+2024/04/02 07:38:15 [notice] 27#27: exiting
+2024/04/02 07:38:15 [notice] 26#26: exiting
+2024/04/02 07:38:15 [notice] 22#22: exit
+2024/04/02 07:38:15 [notice] 29#29: exit
+2024/04/02 07:38:15 [notice] 24#24: exit
+2024/04/02 07:38:15 [notice] 30#30: exit
+2024/04/02 07:38:15 [notice] 25#25: exit
+2024/04/02 07:38:15 [notice] 31#31: exit
+2024/04/02 07:38:15 [notice] 28#28: exit
+2024/04/02 07:38:15 [notice] 27#27: exit
+2024/04/02 07:38:15 [notice] 26#26: exit
+2024/04/02 07:38:15 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/04/02 07:38:15 [notice] 1#1: worker process 24 exited with code 0
+2024/04/02 07:38:15 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 07:38:15 [notice] 1#1: signal 17 (SIGCHLD) received from 22
+2024/04/02 07:38:15 [notice] 1#1: worker process 22 exited with code 0
+2024/04/02 07:38:15 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 07:38:15 [notice] 1#1: signal 17 (SIGCHLD) received from 25
+2024/04/02 07:38:15 [notice] 1#1: worker process 23 exited with code 0
+2024/04/02 07:38:15 [notice] 1#1: worker process 25 exited with code 0
+2024/04/02 07:38:15 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 07:38:15 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/02 07:38:15 [notice] 1#1: worker process 30 exited with code 0
+2024/04/02 07:38:15 [notice] 1#1: worker process 31 exited with code 0
+2024/04/02 07:38:15 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 07:38:15 [notice] 1#1: signal 17 (SIGCHLD) received from 30
+2024/04/02 07:38:15 [notice] 1#1: worker process 28 exited with code 0
+2024/04/02 07:38:15 [notice] 1#1: worker process 26 exited with code 0
+2024/04/02 07:38:15 [notice] 1#1: worker process 27 exited with code 0
+2024/04/02 07:38:15 [notice] 1#1: worker process 29 exited with code 0
+2024/04/02 07:38:15 [notice] 1#1: exit
+2024/04/02 08:08:36 [notice] 1#1: using the "epoll" event method
+2024/04/02 08:08:36 [notice] 1#1: nginx/1.25.4
+2024/04/02 08:08:36 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2024/04/02 08:08:36 [notice] 1#1: OS: Linux 6.4.16-linuxkit
+2024/04/02 08:08:36 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2024/04/02 08:08:36 [notice] 1#1: start worker processes
+2024/04/02 08:08:36 [notice] 1#1: start worker process 22
+2024/04/02 08:08:36 [notice] 1#1: start worker process 23
+2024/04/02 08:08:36 [notice] 1#1: start worker process 24
+2024/04/02 08:08:36 [notice] 1#1: start worker process 25
+2024/04/02 08:08:36 [notice] 1#1: start worker process 26
+2024/04/02 08:08:36 [notice] 1#1: start worker process 27
+2024/04/02 08:08:36 [notice] 1#1: start worker process 28
+2024/04/02 08:08:36 [notice] 1#1: start worker process 29
+2024/04/02 08:08:36 [notice] 1#1: start worker process 30
+2024/04/02 08:08:36 [notice] 1#1: start worker process 31
+2024/04/02 08:11:23 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2024/04/02 08:11:23 [notice] 22#22: gracefully shutting down
+2024/04/02 08:11:23 [notice] 22#22: exiting
+2024/04/02 08:11:23 [notice] 23#23: gracefully shutting down
+2024/04/02 08:11:23 [notice] 31#31: gracefully shutting down
+2024/04/02 08:11:23 [notice] 29#29: gracefully shutting down
+2024/04/02 08:11:23 [notice] 28#28: gracefully shutting down
+2024/04/02 08:11:23 [notice] 24#24: gracefully shutting down
+2024/04/02 08:11:23 [notice] 25#25: gracefully shutting down
+2024/04/02 08:11:23 [notice] 27#27: gracefully shutting down
+2024/04/02 08:11:23 [notice] 30#30: gracefully shutting down
+2024/04/02 08:11:23 [notice] 26#26: gracefully shutting down
+2024/04/02 08:11:23 [notice] 22#22: exit
+2024/04/02 08:11:23 [notice] 23#23: exiting
+2024/04/02 08:11:23 [notice] 31#31: exiting
+2024/04/02 08:11:23 [notice] 23#23: exit
+2024/04/02 08:11:23 [notice] 29#29: exiting
+2024/04/02 08:11:23 [notice] 28#28: exiting
+2024/04/02 08:11:23 [notice] 24#24: exiting
+2024/04/02 08:11:23 [notice] 25#25: exiting
+2024/04/02 08:11:23 [notice] 27#27: exiting
+2024/04/02 08:11:23 [notice] 30#30: exiting
+2024/04/02 08:11:23 [notice] 27#27: exit
+2024/04/02 08:11:23 [notice] 26#26: exiting
+2024/04/02 08:11:23 [notice] 31#31: exit
+2024/04/02 08:11:23 [notice] 29#29: exit
+2024/04/02 08:11:23 [notice] 28#28: exit
+2024/04/02 08:11:23 [notice] 24#24: exit
+2024/04/02 08:11:23 [notice] 25#25: exit
+2024/04/02 08:11:23 [notice] 30#30: exit
+2024/04/02 08:11:23 [notice] 26#26: exit
+2024/04/02 08:11:23 [notice] 1#1: signal 17 (SIGCHLD) received from 24
+2024/04/02 08:11:23 [notice] 1#1: worker process 24 exited with code 0
+2024/04/02 08:11:23 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 08:11:23 [notice] 1#1: signal 17 (SIGCHLD) received from 31
+2024/04/02 08:11:23 [notice] 1#1: worker process 23 exited with code 0
+2024/04/02 08:11:23 [notice] 1#1: worker process 22 exited with code 0
+2024/04/02 08:11:23 [notice] 1#1: worker process 25 exited with code 0
+2024/04/02 08:11:23 [notice] 1#1: worker process 27 exited with code 0
+2024/04/02 08:11:23 [notice] 1#1: worker process 28 exited with code 0
+2024/04/02 08:11:23 [notice] 1#1: worker process 30 exited with code 0
+2024/04/02 08:11:23 [notice] 1#1: worker process 31 exited with code 0
+2024/04/02 08:11:23 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 08:11:23 [notice] 1#1: signal 17 (SIGCHLD) received from 23
+2024/04/02 08:11:23 [notice] 1#1: signal 17 (SIGCHLD) received from 26
+2024/04/02 08:11:23 [notice] 1#1: worker process 26 exited with code 0
+2024/04/02 08:11:23 [notice] 1#1: signal 29 (SIGIO) received
+2024/04/02 08:11:23 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2024/04/02 08:11:23 [notice] 1#1: worker process 29 exited with code 0
+2024/04/02 08:11:23 [notice] 1#1: exit
